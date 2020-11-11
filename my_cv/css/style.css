@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+    list-style:circle;
+
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+    padding: 5px;
+    display: block;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h2 {
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: gray;
+}
+
+.profile-photo {
+    width: auto;
+    height: 150px;
+    border-radius: 120px;
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.address_icon{
+    width: auto;
+    height: 16px;
+    padding-right: 6px;
+}
+
+.contact_item{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+
+a {
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 640px){
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+}
+
+.contact_item{
+    display: flex;
+    flex-direction: column;
+}
+
+}
