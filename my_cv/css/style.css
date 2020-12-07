@@ -5,23 +5,23 @@
 }
 
 body {
+    display: block;
     max-width: 1024px;
     margin: auto;
     padding: 5px;
-    display: block;
 }
 
-h1{
+.name{
     margin-bottom: 0;
 }
 
-h2 {
+.section-title {
     color: gray;
     border-bottom: 2px solid gray;
 }
 
 
-header{
+.person-info{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -63,7 +63,7 @@ a {
     color: black;
 }
 
-main {
+.main-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
